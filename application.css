@@ -1,3 +1,9 @@
 body{
     background-color: antiquewhite;
 }
+h1{
+    style="margin: 25px;"
+}
+P{
+    style="text-align: center;"
+}
