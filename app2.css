@@ -1,7 +1,49 @@
 body{
     background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-h1{
-    style="text-align: center;"
- style="margin: 25px;"
+
+P{
+text-align: center; 
+font-size: 25px;
+}
+section{
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: bisque;
+}
+.enfant{
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+a{
+
+    text-decoration: none;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.element{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
 }

@@ -1,8 +1,78 @@
 body{
     background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-H1{
-    style="text-align: center;"
-    style="margin: 25px;"
 
+P{
+text-align: center; 
+font-size: 25px;
+}
+section{
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: bisque;
+}
+.enfant{
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+a{
+
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+p{
+   
+    text-align: center;
+    margin: 25px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+
+}
+h1{
+    margin: 25px;
+    background-color: rgb(151, 230, 246);
+    font-size: 25px;
+
+}
+table{
+    width: 90%;
+    height: 600px;
+    background-color: rgb(231, 227, 227); 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+     }
+th,tr,td{
+    border: 2px solid black;
+
+}
+.centrer{
+    display: flex;
+    justify-content: center;
+    
 }
